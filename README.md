@@ -1,5 +1,5 @@
 # CodingProblems
-* Arrays
+* [Arrays](./Arrays)
 * Matrix
 * Strings
 * Searching & Sorting
