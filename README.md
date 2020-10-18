@@ -2,7 +2,7 @@
 * [Arrays](./Array)
 * Matrix
 * Strings
-* [Searching & Sorting](./'Searching And Sorting')
+* [Searching & Sorting](./SearchingAndSorting)
 * [LinkedList](./LinkedList)
 * Binary Trees
 * Binary Search Trees
