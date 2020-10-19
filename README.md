@@ -12,5 +12,5 @@
 * Heap
 * Graph
 * Trie
-* Dynamic Programming
+* [Dynamic Programming](./DynamicProgramming)
 * Bit Manipulation
