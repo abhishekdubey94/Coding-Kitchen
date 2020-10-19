@@ -1,6 +1,6 @@
 # CodingProblems
 * [Arrays](./Array)
-* Matrix
+* [Matrix](./Matrix)
 * Strings
 * [Searching & Sorting](./SearchingAndSorting)
 * [LinkedList](./LinkedList)
