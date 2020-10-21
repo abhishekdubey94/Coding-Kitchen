@@ -1,6 +1,6 @@
 # CodingProblems
 * [Arrays](./Array)
-* Matrix
+* [Matrix](./Matrix)
 * Strings
 * [Searching & Sorting](./SearchingAndSorting)
 * [LinkedList](./LinkedList)
@@ -12,5 +12,5 @@
 * Heap
 * Graph
 * Trie
-* Dynamic Programming
+* [Dynamic Programming](./DynamicProgramming)
 * Bit Manipulation
