@@ -1,16 +1,16 @@
 # CodingProblems
 * [Arrays](./Array)
 * [Matrix](./Matrix)
-* Strings
+* [Strings](./Strings)
 * [Searching & Sorting](./SearchingAndSorting)
 * [LinkedList](./LinkedList)
-* Binary Trees
-* Binary Search Trees
-* Greedy
-* BackTracking
-* Stacks & Queues
-* Heap
-* Graph
-* Trie
+* [Binary Trees](./BinaryTrees)
+* [Binary Search Trees](./LinkedList)
+* [Greedy](./Greedy)
+* [BackTracking](./Backtracking)
+* [Stacks & Queues](./StacksAndQueues)
+* [Heap](./LinkedList)
+* [Graph](./Graph)
+* [Trie](./LinkedList)
 * [Dynamic Programming](./DynamicProgramming)
-* Bit Manipulation
+* [Bit Manipulation](./LinkedList)
