@@ -85,21 +85,20 @@ int main(){
 vector<int> leftView(Node *root)
 {
     vector<int> ans;
-   if(root==nullptr){
-       return ans;
-   }
-   
-   Node *curr = root;
-   ans.push_back(curr->data);
-   while(curr->left || curr->right){
-       if(curr->left){
-           curr = curr->left;
-           ans.push_back(curr->data);
-       }else{
-           curr = curr->right;
-           ans.push_back(curr->data);
-       }
-   }
-   
-   return ans;
+    queue<Node*> q;
+    q.push(root);
+
+    while(!q.empty()){
+        int size = q.size();
+        for(int i=0;i<size;i++){
+            Node* curr = q.front();
+            q.pop();
+            if(i==0){
+                ans.push_back(curr->data);
+            }
+            if(curr->left) q.push(curr->left);
+            if(curr->right) q.push(curr->right);
+        }
+    }
+    return ans;
 }
