@@ -1,3 +1,16 @@
+import java.util.*;
+
+class Node
+{
+    int data;
+    Node left,right;
+    Node(int d)
+    {
+        data=d;
+        left=right=null;
+    }
+}
+
 class Solution
 {
     // return an array containing the zig zag level order traversal of the given tree
