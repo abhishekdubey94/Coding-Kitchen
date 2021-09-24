@@ -29,10 +29,10 @@ class GFG {
     public static int mThLargest(int[][] arr, int m) {
         int k = arr.length;
 
-        // Create a min heap with m heap nodes. Every
+        // Create a min heap with k heap nodes. Every
         // heap node has first element of an array
         // The order is based on the value field of the node.
-        PriorityQueue<Node> pq = new PriorityQueue<>(m, (a, b) -> a.value - b.value);
+        PriorityQueue<Node> pq = new PriorityQueue<>(k, (a, b) -> a.value - b.value);
 
         // insert the first elements of all the arrays
         for (int i = 0; i < k; i++) {
